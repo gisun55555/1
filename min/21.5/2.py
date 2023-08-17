@@ -13,5 +13,9 @@ def abc(x,y,sum_s):
 
 for i in range(4):
     abc(i,0,0)
-    
-print(sum_lst)
+
+
+
+n=int(input())
+
+print(sum_lst[n])
