@@ -11,7 +11,7 @@ for i in range(N):
 
 for j in range(N):
     if arr[0][j]==1:
-        unde.append(i)
+        unde.append(j)
 
 print('boss:',end='')
 print(*boss)
