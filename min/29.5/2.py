@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import copy
 
 arr_3=[[9,3,5],[3,6,6],[9,8,7]]
@@ -35,3 +36,8 @@ dd(0,arr_3)
 print(max)
 
 
+=======
+a='ABC D'
+b=a.split()
+print(b)
+>>>>>>> 982d221d525ab1484cdc179e224778c9a3141a3c
