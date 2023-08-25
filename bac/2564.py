@@ -44,8 +44,8 @@ print(lst_l)
 lst_r=[] #최소 거리값을 만들어줄 리스트
 # print(b)
 for i in lst_l:
-    a=abs(i-b) 
-    c=f-a
+    a=abs(i-b) #사이값을 a 받는다
+    c=f-a #30이 총 거리면 반대로 걸어가면 30-a가 반대 코스 거리이다..!
     lst_r.append(min(a,c))
 
 print(sum(lst_r))

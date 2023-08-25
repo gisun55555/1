@@ -12,11 +12,12 @@ for i in range(0,N-1):
         if (s-lst[i]-lst[j])==100:
             print(lst[i])
             print(lst[j])
-            lst.pop(lst.index(lst[i]))
-            lst.pop(lst.index(lst[j]))
+            lst.remove(lst[i])
+            lst.remove(lst[j])
 
             flag=1
             break
-lst.sort()
-print(*lst)
+        
+for i in lst:
+    print(i)
 
